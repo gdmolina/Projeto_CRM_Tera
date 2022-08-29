@@ -1,0 +1,37 @@
+
+h1,h2,h3,h4{
+    font-size:x-large;
+    color:white;
+    text-align:center;
+    margin-top:auto;
+    margin-bottom:auto;
+    font-family: 'Open Sans';    
+}
+
+h4{font-size: small;}
+
+/* Como Centralizar esse container?*/
+.login1{
+    
+    background-color: grey;
+    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+body{position: static;
+    border: 3px solid white;
+    position: sticky;
+    margin-left: 300px;
+    margin-right: 300px;
+
+}
+/* Comos posicionar a barra entre o login e o username*/ 
+.svg{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    
+}
