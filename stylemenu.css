@@ -1,0 +1,30 @@
+
+body{         
+background-image: url(img1.jpg);
+background-size: 100% ;    
+}
+
+
+/*Como ajustar a posição desses quadros?*/
+.container{
+    position: relative;
+}
+.child{
+width: 400px;
+height: 600px;
+background-color: white;
+position: absolute;
+top: 50%;
+left: 40%;
+margin: -25px 0 0 -25px;
+}
+
+img{
+    position: absolute; bottom: 10px; right: 10px;
+}
+
+div{
+background-color: white;
+color: black;
+font-family: 'Open Sans';
+}
